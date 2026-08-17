@@ -19,8 +19,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: "TDS identity: 23f2000225@ds.study.iitm.ac.in"
-        run: echo "TDS identity: 23f2000225@ds.study.iitm.ac.in"
+      - name: 'TDS identity: 23f2000225@ds.study.iitm.ac.in'
+        run: echo "identity check"
 
       - name: Run release-gate policy tests
         run: node test.js
